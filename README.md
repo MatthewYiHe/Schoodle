@@ -1,35 +1,47 @@
-# Node Skeleton
+# Schoodle Project
 
-## Project Setup
+<!-- Chatty is a simple communication application. (6th week of my bootcamp)
 
-1. Create your own empty repo on GitHub
-2. Clone this repository (do not fork)
-  - Suggestion: When cloning, specify a different folder name that is relevant to your project
-3. Remove the git remote: `git remote rm origin`
-4. Add a remote for your origin: `git remote add origin <your github repo URL>`
-5. Push to the new origin: `git push -u origin master`
-6. Verify that the skeleton code now shows up in your repo on GitHub
+Chatty will allow users to communicate with each other without having to register accounts. It will use React as well as modern tools for Node including Webpack and Babel.
+
+Stack:
+- Webpack with Babel, JSX, ES6, webpack dev server (comes with boilerplate)
+- WebSockets using Node package ws on the server-side, and native WebSocket on client side
+- ReactJS
+
+## Final product
+
+!["screenshot of ChattyApp"](https://github.com/MatthewYiHe/chatApp/blob/master/chatty_client/docs/ChattyApp_1.png?raw=true)
+!["screenshot of ChattyApp"](https://github.com/MatthewYiHe/chatApp/blob/master/chatty_client/docs/ChattyApp_2.png?raw=true)
+
 
 ## Getting Started
 
-1. Create the `.env` by using `.env.example` as a reference: `cp .env.example .env`
-2. Update the .env file with your correct local information
-3. Install dependencies: `npm i`
-4. Fix to binaries for sass: `npm rebuild node-sass`
-5. Run migrations: `npm run knex migrate:latest`
-  - Check the migrations folder to see what gets created in the DB
-6. Run the seed: `npm run knex seed:run`
-  - Check the seeds file to see what gets seeded in the DB
-7. Run the server: `npm run local`
-8. Visit `http://localhost:8080/`
+1. Fork this repository, then clone your fork of this repository.
+2. Install dependencies using the `npm install` command, from both chatApp and chatApp/chatty_server.
+3. Start the web server using the `npm start` command, from both chatApp and chatApp/chatty_server. The app will be served at <http://localhost:3000/>.
+4. Go to <http://localhost:3000/> in your browser.
 
-## Dependencies
 
-- Node 5.10.x or above
-- NPM 3.8.x or above
+### Dependencies
 
-## Additional Database SETUP
+- babel-core
+- babel-loader
+- babel-preset-es2015
+- babel-preset-react
+- css-loader
+- node-sass
+- sass-loader
+- sockjs-client
+- style-loader
+- webpack
+- webpack-dev-server
+- react
+- react-dom
 
-In the terminal while in the project directory folder run: `psql < dbinit.sql`.
-This will set up the database for the application.
 
+### Dependencies for WebSockets server
+- express
+- ws
+- uuid
+ -->

@@ -50,6 +50,7 @@ function buildPage() {
 $.post('/refresh', {
   'eventSerial': `${eventSerialID}`
 }, (data) => {
+  console.log(data.options)
   console.dir(data);
   $('div.title').text(data.event.title);
   $('div.description').text(data.event.description);
