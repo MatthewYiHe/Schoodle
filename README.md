@@ -1,18 +1,14 @@
 # Schoodle App
 
-Schoole is an application for scheduling events within a group. It is a simpler, more modern version of Doodle. (4th week of my bootcamp)
+Schoole is an application for scheduling events within a group. It is a simpler, more modern version of Doodle. (4th week of my bootcamp, 2 people 5 days midterm project)
 
-
-Stack:
-- Webpack with Babel, JSX, ES6, webpack dev server (comes with boilerplate)
-- WebSockets using Node package ws on the server-side, and native WebSocket on client side
-- ReactJS
 
 ## Final product
 
-!["screenshot of ChattyApp"](https://github.com/MatthewYiHe/chatApp/blob/master/chatty_client/docs/ChattyApp_1.png?raw=true)
-!["screenshot of ChattyApp"](https://github.com/MatthewYiHe/chatApp/blob/master/chatty_client/docs/ChattyApp_2.png?raw=true)
-
+!["screenshot of Schoodle"](https://github.com/MatthewYiHe/Schoodle/blob/master/docs/event.png?raw=true)
+!["screenshot of Schoodle"](https://github.com/MatthewYiHe/Schoodle/blob/master/docs/date.png?raw=true)
+!["screenshot of Schoodle"](https://github.com/MatthewYiHe/Schoodle/blob/master/docs/time.png?raw=true)
+!["screenshot of Schoodle"](https://github.com/MatthewYiHe/Schoodle/blob/master/docs/vote.png?raw=true)
 
 ## Getting Started
 
