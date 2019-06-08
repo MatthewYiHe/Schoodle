@@ -1,6 +1,8 @@
 # Schoodle App
 
-Schoole is an application for scheduling events within a group. It is a simpler, more modern version of Doodle. (4th week of my bootcamp, 2 people 5 days midterm project)
+Schoole is an application to schedule events within a group. (4th week of my bootcamp, 2 people 5 days midterm project)
+
+Schedule events and meetings with friends, colleagues or clients has never been easier with Schoodle. Find the best time for one-to-ones and group events with our user-friendly scheduling app.
 
 
 ## Final product
