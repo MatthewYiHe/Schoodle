@@ -4,6 +4,12 @@ Schoodle is an application to schedule events within a group. (4th week of my bo
 
 Schedule events and meetings with friends, colleagues or clients has never been easier with Schoodle. Find the best time for one-to-ones and group events with our user-friendly scheduling app.
 
+Stack:
+
+- jQuery, EJS, Bootstrap 
+- Express, Body-parser, Cookie-session
+- PostgreSQL, Knex
+
 
 ## Final product
 
